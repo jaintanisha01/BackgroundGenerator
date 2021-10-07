@@ -1,0 +1,22 @@
+{
+  "name": "backgroundgenerator",
+  "version": "1.0.0",
+  "description": "This web application lets you randomly choose your gradient background",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaintanisha01/BackgroundGenerator.git"
+  },
+  "author": "Tanisha Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaintanisha01/BackgroundGenerator/issues"
+  },
+  "homepage": "https://github.com/jaintanisha01/BackgroundGenerator#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
